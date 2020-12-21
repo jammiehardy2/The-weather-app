@@ -8,6 +8,26 @@ body {
   white-space: pre-wrap;
 }
 
+input {
+  background-color: #f1f3f4;
+  border-radius: 2px;
+  border-width: 0;
+  color: #5f6368;
+  font-size: 1em;
+  height: 45px;
+  line-height: 20px;
+  margin: 0;
+  margin-top: 10px;
+  max-width: 100%;
+  padding: 8px 8px 8px 8px;
+  transition-delay: 0s, 0s;
+  transition-duration: 0.2s, 0.2s;
+  transition-property: background-color, color;
+  transition-timing-function: ease, ease;
+  vertical-align: middle;
+  width: 100%;
+}
+
 .time-block{
   text-align: center;
   border-radius: 15px;
@@ -19,6 +39,23 @@ body {
   border-top: 1px solid white;;
 }
 
+.High {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.Low {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.Date {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
 .UVIndex {
   background-color: #ffffff;
   color: #000000;
