@@ -4,7 +4,7 @@ var currentWindSpeed = document.getElementById("Wind Speed");
 var currentUVIndex = document.getElementById("UV Index");
 var searchBTN= document.getElementById("search");
 var inputtext = document.getElementById("input");
-var currentDay = moment().format('L'); 
+var currentDay = moment().format(''); 
 var searchCity = [];
 
 function getWeather(searchBTN) {
@@ -17,8 +17,8 @@ function getWeather(searchBTN) {
 
   console.log(response);
   
-  var weathericon= response.weather[0].icon;
-  var iconurl="https://openweathermap.org/img/wn/"+weathericon +"@2x.png";
+  //var weathericon= response.weather[0].icon;
+  //var iconurl="https://openweathermap.org/img/wn/"+weathericon +"@2x.png";
  
   var date=new Date(response.dt*1000).toLocaleDateString();
   
@@ -80,7 +80,7 @@ function getWeather(searchBTN) {
             }
           } 
         }
-      }
+      
     //});
 
     //saveText.addEventListener("click", function (event) {
