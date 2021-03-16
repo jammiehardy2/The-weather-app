@@ -1,71 +1,45 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1;
+  font-family: "Open Sans", sans-serif;
+  background-color: lightblue;
 }
 
-.description{
-  white-space: pre-wrap;
+.heading {
+  background-color: #3c3c3c;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
 }
 
 input {
-  background-color: #f1f3f4;
-  border-radius: 2px;
-  border-width: 0;
-  color: #5f6368;
-  font-size: 1em;
-  height: 45px;
-  line-height: 20px;
-  margin: 0;
-  margin-top: 10px;
-  max-width: 100%;
-  padding: 8px 8px 8px 8px;
-  transition-delay: 0s, 0s;
-  transition-duration: 0.2s, 0.2s;
-  transition-property: background-color, color;
-  transition-timing-function: ease, ease;
-  vertical-align: middle;
-  width: 100%;
+  width: 75%;
 }
 
-
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
+#city-list {
+  width: 22rem;
 }
 
-.High {
-  background-color: #ffffff;
-  color: #000000; 
+#city-date-icon,
+#city-name,
+#current-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center/space-around/space-between;
 }
 
-.Low {
-  background-color: #ffffff;
-  color: #000000;
+h6 {
+  font-weight: bold;
 }
 
-.Date {
-  background-color: #ffffff;
-  color: #000000;
-}
-.UVIndex {
-  background-color: #ffffff;
-  color: #000000;
+h4 {
+  margin: 5px;
 }
 
-.Temperature {
-  background-color: #e91e1e;
-  color: white;
+#forecast-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center/space-between;
 }
 
-.Humidity {
-  background-color: #0fd320;
-  color: white;
+.forecast {
+  margin: 10px;
 }
-
-.WindSpeed  {
-  background-color: #d2dd2f;
-  color: white;
-}
-
